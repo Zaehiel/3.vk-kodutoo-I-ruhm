@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'SFBold';
+  src: url('../fonts/SFBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SFULight';
+  src: url('../fonts/SFULight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SFDThin';
+  src: url('../fonts/SFDThin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SFDRegular';
+  src: url('../fonts/SFDRegular.ttf') format('truetype');
+}
+
+.f1{
+	font-family: 'SFBold', sans-serif;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.f2{
+	font-family: 'SFULight', sans-serif;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.f3{
+	font-family: 'SFDThin', sans-serif;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.f4{
+	font-family: 'SFDRegular', sans-serif;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+	text-align: center;
+}
+
+#time{
+	font-size: 128px;
+}
+#date, #city{
+	font-size: 32px;
+}
+.buttons span{
+	font-size:24px;
+}
+@media (max-width: 480px){
+	#time{
+	font-size: 98px;
+	}
+	#date, #city{
+		font-size: 24px;
+	}
+}
+
+
+.day{
+	color: #000;
+	background: #fafafa;
+}
+.night{
+	color: #fff;
+	background: #000;
+}
+
+.bot{
+	position:absolute;
+	bottom:10px;
+}
