@@ -15,18 +15,14 @@ body{
 		padding:10px;
 
 	}
-li.content{
-    -webkit-transition: opacity 111ms;
-    -moz-transition: opacity 111ms;
-    -ms-transition: opacity 111ms;
-    transition: opacity 111ms;
-}
+
 
 	 ul.contents li {
 	 
     max-height: 300px;
-    display: inline-block;
-	position: relative;
+	width:100%;
+  display: inline-block;
+
 	overflow: hidden;
 	//margin: 0 1px 10px 1px;
 	
